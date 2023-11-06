@@ -1,0 +1,105 @@
+.navbar {
+    padding: 0px 0px 0px 24px;
+    background: #FFFFFF;
+    color: #787878;
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.reg, .log {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: row; 
+    justify-items: center;
+    padding: 5px 15px 5px;
+    border: 1px solid #e21c23;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #e21c23;
+    margin-right: 20px;
+    
+}
+
+.inter{
+    display: flex;
+    justify-content: flex-end;
+    align-self:flex-end;
+    margin-left: 900px;
+    
+}
+#login {
+    color: #FFFFFF;
+    background: #e21c23;
+}
+
+.bottom {
+    display: inline-flex;
+    align-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 20%;
+    background: #e21c23;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    
+    
+}
+.upper {
+    background: #e21c23;
+    bottom: 0;
+    padding: 24px;
+    margin-bottom: 0;
+    display: inline-flex;
+    /* width: 100%; */
+    height: 10%;
+    /* align-content: end;
+    justify-content:end */
+}
+.swensens-logo1 {
+    padding-top: 30px;
+    gap: 14px;
+    display: flex;
+    width: 8%;
+    height: 5%;
+    margin-right: 80%;
+    padding-right: 50%;
+    box-sizing: content-box;
+}
+
+a {
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-content: end; */
+    /* box-sizing: border-box; */
+    /* width: 0; */
+    /* margin-right: 20%; */
+    /* padding: 0px 0px 0px 241.234px; */
+    padding: 5px 15px 5px;
+    gap: 10px;
+    text-align: right;
+    /* width: 50%; */
+    width: fit-content;
+    text-align: end;
+    gap: 10px;
+}
+
+.footdata {
+    /* justify-content: center; */
+    /* align-content: end; */
+    text-align: end; 
+    justify-content: center;
+    right: 0%;
+    left: 0%;
+}
+
+.footlogo {
+    
+}
