@@ -17,7 +17,7 @@ main {
     align-items: center; 
     place-content: center;
     display: flex;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     background: #f4f4f4;
 
 }
@@ -29,6 +29,7 @@ main {
     display: flex;
     
     
+    
 }
 
 .box-body {
@@ -36,6 +37,7 @@ main {
     width: 480px;
     box-sizing: border-box;
     background: #FFFFFF;
+    border-radius: 10px;
     
 }
 .reg, .log {
@@ -84,6 +86,7 @@ footer{
     align-items: center;
     margin-bottom: 0;
     flex-shrink: 0;
+    flex-wrap: wrap;
     
     
 }
