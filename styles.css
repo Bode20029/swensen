@@ -9,6 +9,7 @@
     display: flex;
     margin-top: 15px;
     height: 72px;
+    align-items: center;
     
 }
 main {
@@ -17,6 +18,8 @@ main {
     place-content: center;
     display: flex;
     margin: 50px auto;
+    background: #f4f4f4;
+
 }
 
 .container {
@@ -176,6 +179,7 @@ a {
     border: 0;
     min-width: 480px;
     max-height: 1000px;
+    flex-wrap: wrap;
     /* justify-content: center; */
 }
 
@@ -211,12 +215,41 @@ label {
     margin-left: 10px;
 }
 
-.tel{
+.tel, .email{
     display: flex;
     position: relative;
+    height: 80px;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
-.phone {
+.phone, .eml {
     width: fit-content;
     display: flex;
+    height: min-content;
+    margin-left: 10%;
+}
+
+#it {
+    height: min-content;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 13%;
+}
+
+#fp, #sp, #it, #em{
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+label {
+    margin: 5px;
+}
+
+.email {
+    padding-top: 5px;
 }
