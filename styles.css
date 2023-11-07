@@ -172,7 +172,11 @@ a {
 }
 
 .input-box {
-    display: block;
+    display: flex;
+    border: 0;
+    min-width: 480px;
+    max-height: 1000px;
+    /* justify-content: center; */
 }
 
 .name {
@@ -182,4 +186,37 @@ a {
 
 .fullname {
     display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+label {
+    position: relative;
+}
+
+.ln,.ls {
+    display: flex;
+    width: fit-content;
+    
+}
+
+#fp {
+    margin-right: 20px;
+}
+#sp {
+    margin-left: 10px;
+}
+
+.tel{
+    display: flex;
+    position: relative;
+}
+
+.phone {
+    width: fit-content;
+    display: flex;
 }
