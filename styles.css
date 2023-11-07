@@ -1,3 +1,7 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
 .navbar {
     padding: 0px 0px 0px 24px;
     background: #FFFFFF;
@@ -33,10 +37,10 @@
     background: #e21c23;
 }
 
-.bottom {
-    display: inline-flex;
-    align-content: flex-end;
-    position: absolute;
+footer{
+    display: flex;
+    align-content: end;
+    /* position: absolute; */
     bottom: 0;
     /* box-sizing: border-box; */
     width: 100%;
@@ -44,29 +48,35 @@
     background: #e21c23;
     /* flex-direction: row-reverse; */
     align-items: center;
+    margin-bottom: 0;
+    flex-shrink: 0;
     
     
 }
 .upper {
     background: #e21c23;
-    bottom: 0;
+    /* bottom: 0; */
     padding: 24px;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     display: inline-flex;
     /* width: 100%; */
     height: 10%;
     /* align-content: end;
     justify-content:end */
 }
+.lower {
+    bottom: 0;
+    height: 10%;
+}
 .swensens-logo1 {
     padding-top: 30px;
     gap: 14px;
-    display: flex;
+    display: inline;
     width: 8%;
     height: 5%;
     margin-right: 80%;
     padding-right: 50%;
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
 }
 
 a {
@@ -74,7 +84,7 @@ a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
-    display: inline-flex;
+    /* display: flex; */
     flex-direction: row;
     /* justify-content: center; */
     /* align-content: end; */
@@ -95,11 +105,24 @@ a {
     /* justify-content: center; */
     /* align-content: end; */
     text-align: end; 
-    justify-content: center;
-    right: 0%;
-    left: 0%;
+    justify-content:end;
+    align-content:end;
+    display: flex;
+    /* right: 0%;
+    left: 0%; */
 }
 
 .footlogo {
-    
+    display:inline;
+}
+
+.card{
+    height: 240px;
+    width: 480px;
+}
+
+.container {
+    height: 1117px;
+    width: 1200px;
+    max-width: 1200px;
 }
