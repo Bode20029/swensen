@@ -8,12 +8,35 @@
     color: #787878;
     display: flex;
     margin-top: 15px;
+    height: 72px;
+    
+}
+main {
+    justify-content: center;
+    align-items: center; 
+    place-content: center;
+    display: flex;
+    margin: 50px auto;
+}
+
+.container {
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center; 
+    display: flex;
+    
     
 }
 
+.box-body {
+    height: 800px;
+    width: 480px;
+    box-sizing: border-box;
+    
+}
 .reg, .log {
     font-family: 'Kanit', sans-serif;
-    display: flex;
+    display: inline-block;
     flex-direction: row; 
     justify-items: center;
     padding: 5px 15px 5px;
@@ -22,14 +45,20 @@
     font-size: 14px;
     color: #e21c23;
     margin-right: 20px;
-    
+    height: 48px;
+    width: 140px;
+    text-align: center;
+    line-height: 46px;
 }
 
 .inter{
     display: flex;
-    justify-content: flex-end;
-    align-self:flex-end;
-    margin-left: 900px;
+    /* justify-items: center;
+    align-self:flex-end;*/
+    
+    justify-content: center;
+    align-items: center;
+
     
 }
 #login {
@@ -38,7 +67,7 @@
 }
 
 footer{
-    display: flex;
+    display:inline-flex;
     align-content: end;
     /* position: absolute; */
     bottom: 0;
@@ -63,13 +92,16 @@ footer{
     height: 10%;
     display:inline-block;
     gap: 20px;
-    width: fit-content;
+    width: 1887px;
     /* align-content: end;
     justify-content:end */
+    /* margin-right: 0px; */
 }
 .secondary {
     bottom: 0;
     height: 10%;
+    background: #cb191f !important;
+    height: 5%;
 }
 .swensens-logo1 {
     /* padding-top: 30px; */
@@ -111,7 +143,7 @@ a {
     text-align: end; 
     justify-content:end;
     align-content:end;
-    display: flex;
+    display:inline-flex
     /* right: 0%;
     left: 0%; */
 }
@@ -119,6 +151,7 @@ a {
 .footlogo {
     /* display:inline; */
     max-width: fit-content;
+    display: flex;
 }
 
 .card{
@@ -130,4 +163,23 @@ a {
     height: 1117px;
     width: 1200px;
     max-width: 1200px;
+}
+
+.logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.input-box {
+    display: block;
+}
+
+.name {
+    width: 91.75px;
+    height: 208px;
+}
+
+.fullname {
+    display: inline-flex;
 }
