@@ -35,6 +35,7 @@ main {
     height: 800px;
     width: 480px;
     box-sizing: border-box;
+    background: #FFFFFF;
     
 }
 .reg, .log {
@@ -52,6 +53,7 @@ main {
     width: 140px;
     text-align: center;
     line-height: 46px;
+    position: ;
 }
 
 .inter{
