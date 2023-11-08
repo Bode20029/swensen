@@ -131,7 +131,7 @@ a {
     font-family: 'Kanit', sans-serif;
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 20px;
+    /* font-size: 20px; */
     /* display: flex; */
     flex-direction: row;
     /* justify-content: center; */
@@ -141,11 +141,11 @@ a {
     /* margin-right: 20%; */
     /* padding: 0px 0px 0px 241.234px; */
     padding: 5px 15px 5px;
-    
+    height: fit-content;
     gap: 10px;
     /* text-align: right; */
     /* width: 50%; */
-    width: fit-content;
+    /* width: fit-content; */
     /* text-align: end; */
     gap: 10px;
     
@@ -159,7 +159,8 @@ a {
     align-content:end; */
     display:flex;
     flex-wrap: wrap;
-    margin-left: 460px;
+    margin-left: 260px;
+    font-size: 20px;
 
     /* right: 0%;
     left: 0%; */
@@ -217,8 +218,8 @@ a {
     justify-content: center;
     align-items: center;
     margin: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
 }
 
 label {
@@ -238,7 +239,7 @@ label {
     margin-left: 10px;
 }
 
-.tel, .email{
+.tel, .email, .passw{
     display: flex;
     position: relative;
     height: 80px;
@@ -249,7 +250,7 @@ label {
     
 }
 
-.phone, .eml {
+.phone, .eml, .pass {
     width: fit-content;
     display: flex;
     height: min-content;
@@ -263,22 +264,24 @@ label {
     margin-right: 13%;
 }
 
-#fp, #sp, #it, #em{
+#fp, #sp, #it, #em, #pw{
     border-radius: 5px;
     height: 40px;
     margin-left: 20px;
-    margin-right: 5px;
+    margin-right: 20px;
+    padding-right: 10px;
 }
 label {
     margin: 5px;
 }
 
-.email {
+.email, .passw {
     padding-top: 5px;
 }
 
 .social-media{
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .slogo {
@@ -290,4 +293,15 @@ label {
 
 .forlogo {
     gap: 20px;
+    height: fit-content;
+    align-items: center;
+    margin-left: 30px;
+    margin-top:  15px;
+    gap: 60px;
+    width: 400px;
+    
+}
+
+.passw {
+    width: 100%
 }
