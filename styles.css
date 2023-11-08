@@ -97,26 +97,31 @@ footer{
     /* margin-bottom: 0; */
     /* display: inline-flex; */
     /* width: 100%; */
-    height: 10%;
-    display:inline-block;
+    height: 65px;
+    display:flex;
+    flex-wrap: wrap;
     gap: 20px;
-    width: 1887px;
+    /* width: 1887px; */
+    width: 100%;
     /* align-content: end;
     justify-content:end */
     /* margin-right: 0px; */
 }
 .secondary {
-    bottom: 0;
+    
     height: 10%;
     background: #cb191f !important;
-    height: 5%;
+    height: 60px;
+    width: 100%;
+    display:flex;
+    bottom: 0;
 }
 .swensens-logo1 {
     /* padding-top: 30px; */
     /* gap: 14px; */
     display: inline-flex;
     width: fit-content;
-    height: 5%;
+    height: 40px;
     margin-right: 20%;
     padding-right: 0%;
     /* box-sizing: content-box; */
@@ -136,30 +141,43 @@ a {
     /* margin-right: 20%; */
     /* padding: 0px 0px 0px 241.234px; */
     padding: 5px 15px 5px;
-    margin-right: 0;
+    
     gap: 10px;
-    text-align: right;
+    /* text-align: right; */
     /* width: 50%; */
     width: fit-content;
-    text-align: end;
+    /* text-align: end; */
     gap: 10px;
+    
 }
 
 .footdata {
     /* justify-content: center; */
     /* align-content: end; */
-    text-align: end; 
+    /* text-align: end; 
     justify-content:end;
-    align-content:end;
-    display:inline-flex
+    align-content:end; */
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 460px;
+
     /* right: 0%;
     left: 0%; */
 }
 
 .footlogo {
     /* display:inline; */
-    max-width: fit-content;
-    display: flex;
+    /* max-width: fit-content; */
+    display: contents; /*I use this to show image at long last I did it */
+    flex-wrap: wrap;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+  
+    
+    
 }
 
 .card{
@@ -257,4 +275,19 @@ label {
 
 .email {
     padding-top: 5px;
+}
+
+.social-media{
+    align-items: center;
+}
+
+.slogo {
+    height: 25px;
+    width: 24px;
+    
+    
+}
+
+.forlogo {
+    gap: 20px;
 }
